@@ -1,0 +1,19 @@
+{
+  "name": "dompetku-ios",
+  "version": "1.0.0",
+  "description": "Aplikasi Pencatat Keuangan & Scan Struk iPhone (DompetKu iOS)",
+  "private": true,
+  "scripts": {
+    "init:ios": "npx cap add ios && node scripts/patch-ios-plist.js && npx @capacitor/assets generate --ios && npx cap sync ios",
+    "sync:ios": "npx cap sync ios && node scripts/patch-ios-plist.js",
+    "open:xcode": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}

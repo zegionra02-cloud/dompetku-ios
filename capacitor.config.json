@@ -1,0 +1,11 @@
+{
+  "appId": "com.dompetku.keuangan.ios",
+  "appName": "DompetKu",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "ios": {
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile",
+    "backgroundColor": "#0f172a"
+  }
+}
